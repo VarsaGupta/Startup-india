@@ -1,7 +1,6 @@
 import requests
 
 url = 'https://api.startupindia.gov.in/sih/api/noauth/sihLogin/auth'
-print(url);
 headers = {
     'Content-Type': 'application/json',
     'Referer': 'https://www.startupindia.gov.in/',
